@@ -1,5 +1,14 @@
-IMU 9DOF
+# 3 - - - IMU-9DOF
 Tramite la libreria di Seed Studio abbiamo calibrato il sensore IMU 9DOF - calibrando i seguenti parametri: x, y, z.
-Cercheremo mediante la libreria di Babylon.js e Node-red di effettuare una rappresentazione in 3D dei dati che riusciamo a visualizzare 
+Cercheremo mediante la libreria di Babylon.js(https://flows.nodered.org/node/node-red-contrib-web-babylonjs) e 
+Node-red di effettuare una rappresentazione in 3D dei dati che riusciamo a visualizzare 
 dal Serial Monitor su Arduino. 
 Calibrazione: https://imgur.com/XDJMXXL
+
+Successivamente abbiamo creato un oggetto JSON per 3 valori rilevati dalla IMU: accelerometro, magnetometro, giroscopio. 
+(CODICE ARDUINO:https://pastebin.com/raw/KRhnBMfK)
+Abbiamo poi collegato la porta seriale su node red, trasformando i dati rilevati in JSON.
+(CODICE NODE-RED: https://pastebin.com/raw/5KCe3H49) Visualizzazione 3D: (http://localhost:1880/scene/)(http://localhost:1880/myscene/)
+
+(CODICE FINALE [errore# non visualizziamo i movimenti]): https://pastebin.com/raw/X8hkHixM
+
