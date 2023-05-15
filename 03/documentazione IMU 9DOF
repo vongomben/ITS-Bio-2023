@@ -1,0 +1,5 @@
+IMU 9DOF
+Tramite la libreria di Seed Studio abbiamo calibrato il sensore IMU 9DOF - calibrando i seguenti parametri: x, y, z.
+Cercheremo mediante la libreria di Babylon.js e Node-red di effettuare una rappresentazione in 3D dei dati che riusciamo a visualizzare 
+dal Serial Monitor su Arduino. 
+Calibrazione: https://imgur.com/XDJMXXL
